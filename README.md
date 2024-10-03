@@ -66,7 +66,7 @@ cd pdf-splitter</code></pre>
             </ul>
         </li>
         <li><strong>Run the PDF Splitter Script</strong>
-            <pre><code>python split_pdf.py</code></pre>
+            <pre><code>python main.py</code></pre>
         </li>
         <li><strong>Follow the Interactive Prompts</strong>
             <ul>
@@ -121,7 +121,7 @@ Available PDF files:
     ├── output/ # Folder where individual PDFs will be saved
     ├── source/ # Folder containing the source PDFs
     │ └── example.pdf # Your source PDF files
-    ├── split_pdf.py # The Python script
+    ├── main.py # The Python script
     ├── requirements.txt # Python dependencies
     └── venv/ # Virtual environment folder</code></pre>
 
@@ -152,7 +152,7 @@ Available PDF files:
     </li>
     <li><strong>Script Not Found or Not Executable</strong>
     <p><em>Cause:</em> The terminal is not in the correct directory.</p>
-    <p><em>Solution:</em> Navigate to the project directory containing <code>split_pdf.py</code> before running the script.</p>
+    <p><em>Solution:</em> Navigate to the project directory containing <code>main.py</code> before running the script.</p>
     <pre><code>cd /path/to/your/pdf-splitter/
     </code></pre>
     </li>
