@@ -17,10 +17,8 @@
   <h2>Installation</h2>
     <ol>
         <li><strong>Clone the Repository</strong>
-            <pre><code>git clone https://github.com/yourusername/pdf-splitter.git
-
-cd pdf-splitter
-</code></pre>
+            <pre><code>git clone https://github.com/robertjbass/pdf-splitter.git
+cd pdf-splitter</code></pre>
 
 </li>
 <li><strong>Set Up a Virtual Environment (Recommended)</strong>
@@ -60,18 +58,15 @@ cd pdf-splitter
             <em>If not already activated, activate it:</em>
             <ul>
                 <li><strong>macOS/Linux:</strong>
-                    <pre><code>source venv/bin/activate
-                    </code></pre>
+                    <pre><code>source venv/bin/activate</code></pre>
                 </li>
                 <li><strong>Windows:</strong>
-                    <pre><code>venv\Scripts\activate
-                    </code></pre>
+                    <pre><code>venv\Scripts\activate</code></pre>
                 </li>
             </ul>
         </li>
         <li><strong>Run the PDF Splitter Script</strong>
-            <pre><code>python split_pdf.py
-            </code></pre>
+            <pre><code>python split_pdf.py</code></pre>
         </li>
         <li><strong>Follow the Interactive Prompts</strong>
             <ul>
@@ -115,27 +110,20 @@ Available PDF files:
     <pre><code>Page 1.pdf
     Page 2.pdf
     ...
-    Page 10.pdf
-      </code>
+    Page 10.pdf</code>
     </pre>
     </li>
     </ol>
 
     <h2>Project Structure</h2>
     <pre><code>pdf-splitter/
-
     │
     ├── output/ # Folder where individual PDFs will be saved
-    │
     ├── source/ # Folder containing the source PDFs
     │ └── example.pdf # Your source PDF files
-    │
     ├── split_pdf.py # The Python script
-    │
     ├── requirements.txt # Python dependencies
-    │
-    └── venv/ # Virtual environment folder
-    </code></pre>
+    └── venv/ # Virtual environment folder</code></pre>
 
       <h2>Troubleshooting</h2>
         <ul>
@@ -156,9 +144,7 @@ Available PDF files:
                 <p><em>Solution:</em></p>
                 <ol>
                     <li>Activate your virtual environment:</li>
-                    <pre><code>source venv/bin/activate  # macOS/Linux# venv\Scripts\activate # Windows
-
-    </code></pre>
+                    <pre><code>source venv/bin/activate  # macOS/Linux# venv\Scripts\activate # Windows</code></pre>
     <li>Install dependencies:</li>
     <pre><code>pip install -r requirements.txt
     </code></pre>
@@ -173,9 +159,7 @@ Available PDF files:
     <li><strong>Virtual Environment Not Activated</strong>
     <p><em>Cause:</em> Dependencies are installed in the virtual environment, but it's not activated.</p>
     <p><em>Solution:</em> Activate the virtual environment:</p>
-    <pre><code>source venv/bin/activate # macOS/Linux # venv\Scripts\activate # Windows
-
-    </code></pre>
+    <pre><code>source venv/bin/activate # macOS/Linux # venv\Scripts\activate # Windows</code></pre>
     </li>
     </ul>
 
