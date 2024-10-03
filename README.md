@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>PDF Splitter - README</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
-        h1, h2, h3 { color: #333; }
-        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
-        code { font-family: Consolas, monospace; }
-        ul { list-style-type: disc; margin-left: 20px; }
-        ol { list-style-type: decimal; margin-left: 20px; }
-        a { color: #1a0dab; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>PDF Splitter</h1>
+  <h1>PDF Splitter</h1>
 
   <h2>Features</h2>
     <ul>
@@ -197,6 +181,3 @@ Available PDF files:
 
     <h2>License</h2>
     <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-</body>
-</html>
